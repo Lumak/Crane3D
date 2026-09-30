@@ -116,6 +116,10 @@ if (URHO3D_WEBP)
     add_subdirectory (ThirdParty/WebP)
 endif ()
 
+if (URHO3D_IMGUI)
+    add_subdirectory (ThirdParty/ImGui)
+endif ()
+
 if (URHO3D_PHYSICS)
     add_subdirectory (ThirdParty/Bullet)
 endif ()

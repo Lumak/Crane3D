@@ -28,6 +28,11 @@
 #include "SDL.h"
 #include "SDL_video.h"
 #include "SDL_sysvideo.h"
+
+#ifdef WIN32
+#include <windows.h>
+#endif
+
 #include "SDL_blit.h"
 #include "SDL_pixels_c.h"
 #include "SDL_rect_c.h"

@@ -20,6 +20,10 @@
 */
 #include "../SDL_internal.h"
 
+#ifdef WIN32
+#include <windows.h>
+#endif
+
 /* General event handling code for SDL */
 
 #include "SDL.h"
