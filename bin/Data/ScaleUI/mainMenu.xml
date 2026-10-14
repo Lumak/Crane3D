@@ -1,0 +1,79 @@
+<?xml version="1.0"?>
+<element type="BorderImage">
+	<attribute name="Size" value="250 200" />
+	<attribute name="Min Size" value="250 200" />
+	<attribute name="Max Size" value="250 200" />
+	<attribute name="Min Anchor" value="0.5 0.5" />
+	<attribute name="Max Anchor" value="0.5 0.5" />
+	<attribute name="Pivot" value="0.5 0.5" />
+	<attribute name="Is Enabled" value="true" />
+	<attribute name="Is Editable" value="false" />
+	<attribute name="Layout Mode" value="Vertical" />
+	<attribute name="Layout Spacing" value="15" />
+	<attribute name="Layout Border" value="5 10 5 5" />
+	<attribute name="Texture" value="Texture2D;ScaleUI/abstractColor.jpg" />
+	<attribute name="Image Rect" value="0 0 256 128" />
+	<element type="Button">
+		<attribute name="Name" value="buttonResolution" />
+		<attribute name="Min Size" value="200 50" />
+		<attribute name="Max Size" value="200 50" />
+		<attribute name="Min Anchor" value="0.5 0" />
+		<attribute name="Max Anchor" value="0.5 0" />
+		<attribute name="Pivot" value="0.5 0" />
+		<element type="Text">
+			<attribute name="Min Anchor" value="0.5 0.5" />
+			<attribute name="Max Anchor" value="0.5 0.5" />
+			<attribute name="Pivot" value="0.5 0.5" />
+			<attribute name="Top Left Color" value="0.85 0.85 0.85 1" />
+			<attribute name="Top Right Color" value="0.85 0.85 0.85 1" />
+			<attribute name="Bottom Left Color" value="0.85 0.85 0.85 1" />
+			<attribute name="Bottom Right Color" value="0.85 0.85 0.85 1" />
+			<attribute name="Indent Spacing" value="20" />
+			<attribute name="Font Size" value="20" />
+			<attribute name="Text" value="Resolution" />
+			<attribute name="Text Alignment" value="Center" />
+		</element>
+	</element>
+	<element type="Button">
+		<attribute name="Name" value="buttonScale" />
+		<attribute name="Min Size" value="200 50" />
+		<attribute name="Max Size" value="200 50" />
+		<attribute name="Min Anchor" value="0.5 0" />
+		<attribute name="Max Anchor" value="0.5 0" />
+		<attribute name="Pivot" value="0.5 0" />
+		<element type="Text">
+			<attribute name="Min Anchor" value="0.5 0.5" />
+			<attribute name="Max Anchor" value="0.5 0.5" />
+			<attribute name="Pivot" value="0.5 0.5" />
+			<attribute name="Top Left Color" value="0.85 0.85 0.85 1" />
+			<attribute name="Top Right Color" value="0.85 0.85 0.85 1" />
+			<attribute name="Bottom Left Color" value="0.85 0.85 0.85 1" />
+			<attribute name="Bottom Right Color" value="0.85 0.85 0.85 1" />
+			<attribute name="Indent Spacing" value="20" />
+			<attribute name="Font Size" value="20" />
+			<attribute name="Text" value="Scale" />
+			<attribute name="Text Alignment" value="Center" />
+		</element>
+	</element>
+	<element type="Button">
+		<attribute name="Name" value="buttonQuit" />
+		<attribute name="Min Size" value="200 50" />
+		<attribute name="Max Size" value="200 50" />
+		<attribute name="Min Anchor" value="0.5 0" />
+		<attribute name="Max Anchor" value="0.5 0" />
+		<attribute name="Pivot" value="0.5 0" />
+		<element type="Text">
+			<attribute name="Min Anchor" value="0.5 0.5" />
+			<attribute name="Max Anchor" value="0.5 0.5" />
+			<attribute name="Pivot" value="0.5 0.5" />
+			<attribute name="Top Left Color" value="0.85 0.85 0.85 1" />
+			<attribute name="Top Right Color" value="0.85 0.85 0.85 1" />
+			<attribute name="Bottom Left Color" value="0.85 0.85 0.85 1" />
+			<attribute name="Bottom Right Color" value="0.85 0.85 0.85 1" />
+			<attribute name="Indent Spacing" value="20" />
+			<attribute name="Font Size" value="20" />
+			<attribute name="Text" value="Quit" />
+			<attribute name="Text Alignment" value="Center" />
+		</element>
+	</element>
+</element>

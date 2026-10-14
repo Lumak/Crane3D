@@ -1,0 +1,101 @@
+<?xml version="1.0"?>
+<element type="BorderImage">
+	<attribute name="Size" value="300 170" />
+	<attribute name="Min Anchor" value="0.5 0.5" />
+	<attribute name="Max Anchor" value="0.5 0.5" />
+	<attribute name="Pivot" value="0.5 0.5" />
+	<attribute name="Clip Border" value="4 4 4 4" />
+	<attribute name="Layout Spacing" value="25" />
+	<attribute name="Texture" value="Texture2D;ScaleUI/abstractColor.jpg" />
+	<attribute name="Image Rect" value="0 0 256 256" />
+	<element type="Text">
+		<attribute name="Position" value="20 2" />
+		<attribute name="Pivot" value="0 0" />
+		<attribute name="Top Left Color" value="0.85 0.85 0.85 1" />
+		<attribute name="Top Right Color" value="0.85 0.85 0.85 1" />
+		<attribute name="Bottom Left Color" value="0.85 0.85 0.85 1" />
+		<attribute name="Bottom Right Color" value="0.85 0.85 0.85 1" />
+		<attribute name="Font Size" value="18" />
+		<attribute name="Text" value="Scale Type" />
+	</element>
+	<element type="CheckBox">
+		<attribute name="Name" value="scaleCheckbox1" />
+		<attribute name="Position" value="20 35" />
+		<attribute name="Size" value="16 16" />
+		<attribute name="Pivot" value="0 0" />
+		<element type="Text">
+			<attribute name="Position" value="20 0" />
+			<attribute name="Pivot" value="0 0" />
+			<attribute name="Top Left Color" value="0.85 0.85 0.85 1" />
+			<attribute name="Top Right Color" value="0.85 0.85 0.85 1" />
+			<attribute name="Bottom Left Color" value="0.85 0.85 0.85 1" />
+			<attribute name="Bottom Right Color" value="0.85 0.85 0.85 1" />
+			<attribute name="Text" value="None" />
+		</element>
+	</element>
+	<element type="CheckBox">
+		<attribute name="Name" value="scaleCheckbox2" />
+		<attribute name="Position" value="20 55" />
+		<attribute name="Size" value="16 16" />
+		<attribute name="Pivot" value="0 0" />
+		<element type="Text">
+			<attribute name="Position" value="20 0" />
+			<attribute name="Pivot" value="0 0" />
+			<attribute name="Top Left Color" value="0.85 0.85 0.85 1" />
+			<attribute name="Top Right Color" value="0.85 0.85 0.85 1" />
+			<attribute name="Bottom Left Color" value="0.85 0.85 0.85 1" />
+			<attribute name="Bottom Right Color" value="0.85 0.85 0.85 1" />
+			<attribute name="Text" value="UI scale" />
+		</element>
+	</element>
+	<element type="CheckBox">
+		<attribute name="Name" value="scaleCheckbox3" />
+		<attribute name="Position" value="20 75" />
+		<attribute name="Size" value="16 16" />
+		<attribute name="Pivot" value="0 0" />
+		<element type="Text">
+			<attribute name="Position" value="20 0" />
+			<attribute name="Pivot" value="0 0" />
+			<attribute name="Top Left Color" value="0.85 0.85 0.85 1" />
+			<attribute name="Top Right Color" value="0.85 0.85 0.85 1" />
+			<attribute name="Bottom Left Color" value="0.85 0.85 0.85 1" />
+			<attribute name="Bottom Right Color" value="0.85 0.85 0.85 1" />
+			<attribute name="Text" value="Flex scale" />
+		</element>
+	</element>
+	<element type="Button">
+		<attribute name="Name" value="scaleButtonOK" />
+		<attribute name="Position" value="40 110" />
+		<attribute name="Size" value="100 30" />
+		<attribute name="Pivot" value="0 0" />
+		<element type="Text">
+			<attribute name="Min Anchor" value="0.5 0.5" />
+			<attribute name="Max Anchor" value="0.5 0.5" />
+			<attribute name="Pivot" value="0.5 0.5" />
+			<attribute name="Top Left Color" value="0.85 0.85 0.85 1" />
+			<attribute name="Top Right Color" value="0.85 0.85 0.85 1" />
+			<attribute name="Bottom Left Color" value="0.85 0.85 0.85 1" />
+			<attribute name="Bottom Right Color" value="0.85 0.85 0.85 1" />
+			<attribute name="Font Size" value="15" />
+			<attribute name="Text" value="OK" />
+		</element>
+	</element>
+	<element type="Button">
+		<attribute name="Name" value="scaleButtonCancel" />
+		<attribute name="Position" value="160 110" />
+		<attribute name="Size" value="100 30" />
+		<attribute name="Pivot" value="0 0" />
+		<element type="Text">
+			<attribute name="Name" value="l" />
+			<attribute name="Min Anchor" value="0.5 0.5" />
+			<attribute name="Max Anchor" value="0.5 0.5" />
+			<attribute name="Pivot" value="0.5 0.5" />
+			<attribute name="Top Left Color" value="0.85 0.85 0.85 1" />
+			<attribute name="Top Right Color" value="0.85 0.85 0.85 1" />
+			<attribute name="Bottom Left Color" value="0.85 0.85 0.85 1" />
+			<attribute name="Bottom Right Color" value="0.85 0.85 0.85 1" />
+			<attribute name="Font Size" value="15" />
+			<attribute name="Text" value="Cancel" />
+		</element>
+	</element>
+</element>
